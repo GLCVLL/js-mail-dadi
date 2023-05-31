@@ -9,7 +9,7 @@
     <!-- BOOTSTRAP LINK -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css' integrity='sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==' crossorigin='anonymous'/>
     <!-- JAVASCRIPT LINK -->
-    <script defer src="js/scriptEmail.js"></script>
+    <script defer src="js/scriptDice.js"></script>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="css/style.css">
     <title>Email & Dadi</title>
@@ -37,7 +37,27 @@
             </div>
         </div>
         <!-- DICE GAME -->
-        
+        <div class="container">
+            <div class="card mb-3 my-5">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/stangata-img.jpeg" class="img-fluid rounded-start" alt="Stangata Movie">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h3 class="card-title">Try your luck!</h3>
+                      <p class="card-text">Click the button below and try to win!</p>
+                      <button id="playbtn" class="btn btn-success">Play</button>
+                      <div class="d-flex justify-content-between py-2">
+                        <p id="user-number"></p>
+                        <p id="cpu-number"></p>
+                        <p id="results"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
     </main>
 </body>
 </html>
