@@ -19,12 +19,10 @@
 
 ***START***
 
-- creo una lista di numeri da 1 a 6.
 - genero un numero random per l'utente.
 - genero un numero random per il cpu.
 - **SE** il numero più alto è del utente
     - stampo in console l'utente.
-- **SE** il numero più alto è del cpu.
-    - stampo in console il cpu.    
+- **ALTRIMENTI** stampo in console il cpu.    
 
 ***END***
