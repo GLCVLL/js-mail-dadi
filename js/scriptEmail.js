@@ -41,8 +41,8 @@ checkButton.addEventListener("click", function(){
   // Print the result on the DOM
 
   if (isPresent) {
-    resultElement.textContent = "EH EH EH welcome, STRANGER!";
+    resultElement.innerText = "EH EH EH welcome, STRANGER!";
   } else {
-    resultElement.textContent = "You can't log in, STRANGER!";
+    resultElement.innerText = "You can't log in, STRANGER!";
   }
 });
